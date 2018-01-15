@@ -41,7 +41,7 @@ $('#newTask').keypress(function(event) {
 
 
 //deleting a task
-$('ul').on('click', 'span', function() {
+$('ul').on('click', 'span', function(event) {
 
 	//remove list item from DOM (front end)
 	$(this).parent().fadeOut(500, function() {
@@ -55,8 +55,10 @@ $('ul').on('click', 'span', function() {
 	$.post('delete.php', {id: $(this).parent().attr('id') }, function(data, status){
 
 
-		console.log(data);
+		//console.log(data);
 	});
+
+	event.stopPropagation();
 
 
 
