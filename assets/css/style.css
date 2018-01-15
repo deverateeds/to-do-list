@@ -1,0 +1,75 @@
+/** {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*/
+
+.completed {
+	color: gray;
+	text-decoration: line-through;
+}
+
+/*CSS Reset*/
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+	background-color: #C1B38E;
+}
+
+div.well {
+	background-color: #9DB6C7;
+
+}
+
+input {
+	width: 100%;
+}
+
+ul {
+	padding-left: 2%;
+	list-style: none;
+}
+
+
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+
+#secondContainer {
+	width: 60%;
+}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+#secondContainer {
+	width: 60%;
+}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+
+#secondContainer {
+	width: 50%;
+}
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+#secondContainer {
+	width: 50%;
+}
+
+}
